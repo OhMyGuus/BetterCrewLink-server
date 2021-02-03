@@ -15,7 +15,7 @@ h1 Servidor do CrewLink
 	p Este servidor do CrewLink está rodando em: 
 	br
 	b #{address}
-	p Atualmente #{connectionCount === 1 ? 'is' : 'are'} temos #{connectionCount} usuário conectado#{connectionCount === 1 ? '' : 's'}.
+	p Atualmente #{connectionCount === 1 ? 'is' : 'are'} temos #{connectionCount} usuário conectado#{connectionCount === 1 ? '' : 's', 0 ? 's' : 's'}.
 	<hr>
 	p
 			| Baixe o BetterCrewLink para um melhor áudio & novos recursos, 

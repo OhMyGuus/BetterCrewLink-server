@@ -28,6 +28,9 @@ const DEFAULT_PEER_CONFIG: PeerConfig = {
 	forceRelayOnly: true,
 	integratedRelay: {
 		enabled: true,
+		listeningIps: ['0.0.0.0'],
+		relayIps: [],
+		externalIps: null,
 		minPort: 49152,
 		maxPort: 65535,
 		listeningPort: 3478,

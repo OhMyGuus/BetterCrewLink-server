@@ -15,6 +15,9 @@ forceRelayOnly: true
 # Settings for the built-in TURN server.
 integratedRelay:
   enabled: true # Use the-built in relay server if you run a small-scale server for private use.
+  #relayIps: ['192.0.2.1']
+  #listeningIps: ['192.0.2.1']
+  #externalIps: { 'default': '192.0.2.1' }
   minPort: 49152
   maxPort: 65535
   listeningPort: 3478

@@ -7,6 +7,9 @@ const PEER_CONFIG_PATH = path.join(__dirname, '..', 'config', 'peerConfig.yml');
 
 interface IntegratedRelaySettings {
 	enabled: boolean;
+	listeningIps: string[];
+	relayIps: string[];
+	externalIps: string[];
 	minPort: number;
 	maxPort: number;
 	listeningPort: number;
@@ -25,6 +28,9 @@ const DEFAULT_PEER_CONFIG: PeerConfig = {
 	forceRelayOnly: true,
 	integratedRelay: {
 		enabled: true,
+		listeningIps: ['0.0.0.0'],
+		relayIps: [],
+		externalIps: null,
 		minPort: 49152,
 		maxPort: 65535,
 		listeningPort: 3478,

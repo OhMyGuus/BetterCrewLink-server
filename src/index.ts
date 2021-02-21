@@ -43,6 +43,9 @@ if (httpsEnabled) {
 let turnServer: any | null = null;
 if (peerConfig.integratedRelay.enabled) {
 	turnServer = new TurnServer({
+		listeningIps: peerConfig.integratedRelay.listeningIps,
+		relayIps: peerConfig.integratedRelay.relayIps,
+		externalIps: peerConfig.integratedRelay.externalIps,
 		minPort: peerConfig.integratedRelay.minPort,
 		maxPort: peerConfig.integratedRelay.maxPort,
 		listeningPort: peerConfig.integratedRelay.listeningPort,

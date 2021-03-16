@@ -4,6 +4,8 @@
  "main": "index.js",
  "license": "GPL-3.0-or-later",
  "dependencies": {
+  "cross-env": "^7.0.3",
+  "dotenv": "^8.2.0",
   "express": "^4.17.1",
   "morgan": "^1.10.0",
   "node-turn": "0.0.6",
@@ -14,6 +16,7 @@
  },
  "scripts": {
   "start": "yarn compile && node dist/index.js",
+  "replit-start": "cross-env REPLIT=true yarn start",
   "compile": "tsc",
   "heroku-postbuild": "yarn compile"
  },

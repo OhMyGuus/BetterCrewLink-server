@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "yarn start"
+run = "yarn run replit-start"

@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 import express from 'express';
 import { Server } from 'http';
 import { Server as HttpsServer } from 'https';
@@ -11,9 +13,11 @@ import peerConfig from './peerConfig';
 import { ICEServer } from './ICEServer';
 let TurnServer = require('node-turn');
 
-const httpsEnabled = !!process.env.HTTPS;
+const isReplIt = !!process.env.REPLIT;
 
-const port = process.env.PORT || (httpsEnabled ? '443' : '9736');
+const httpsEnabled = (isReplIt) ? true : !!process.env.HTTPS;
+
+const port = (isReplIt) ? 9736 : (!!process.env.PORT) ? process.env.PORT : (httpsEnabled ? '443' : '9736');
 
 const sslCertificatePath = process.env.SSLPATH || process.cwd();
 
@@ -28,7 +32,7 @@ const turnLogger = Tracer.colorConsole({
 
 const app = express();
 let server: HttpsServer | Server;
-if (httpsEnabled) {
+if (httpsEnabled && !isReplIt) {
 	server = new HttpsServer(
 		{
 			key: readFileSync(join(sslCertificatePath, 'privkey.pem')),

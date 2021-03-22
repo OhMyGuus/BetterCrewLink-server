@@ -25,9 +25,9 @@ interface PeerConfig {
 }
 
 const DEFAULT_PEER_CONFIG: PeerConfig = {
-	forceRelayOnly: true,
+	forceRelayOnly: false,
 	integratedRelay: {
-		enabled: true,
+		enabled: false,
 		listeningIps: ['0.0.0.0'],
 		relayIps: [],
 		externalIps : null,

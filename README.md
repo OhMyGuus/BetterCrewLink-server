@@ -24,6 +24,7 @@
 
 * [About the Project](#about-the-project)
 * [Deploy to Heroku](#deploy-to-heroku)
+* [Deploy to Repl.it](#deploy-to-repl.it)
 * [Docker Quickstart](#docker-quickstart)
   * [Building the Docker Image](#building-the-docker-image)
 * [Manual Installation](#manual-installation)
@@ -52,11 +53,20 @@ Optional environment variables:
 
 ## Deploy to Heroku
 
-To get up and running quickly, you can deploy to Heroku using the button below
+To get up and running quickly, you can deploy to Heroku clicking on the button below:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-This will deploy an instance of the crewlink-server. You can get the URL of your server by using the app name that you gave when you launched the app on heroku and appending `.herokuapp.com`. You can also find the URL of your server by going to "Settings", scrolling down to "Domains". Using this URL, follow step 4 of the [installation instructions](https://github.com/OhMyGuus/CrewLink-server#manual-installation) to connect your client to your server instance.
+This will deploy an instance of the BetterCrewLink-server. You can get the URL of your server by using the app name that you gave when you launched the app on Heroku and appending `.herokuapp.com`. You can also find the URL of your server by going to "Settings", scrolling down to "Domains". Using this URL, follow step 4 of the [installation instructions](https://github.com/OhMyGuus/BetterCrewLink-server#manual-installation) to connect your client to your server instance.
+
+## Deploy to Repl.it
+
+Another way to host your server besides using Heroku it's the Repl.it that provide you to host servers completely free without having time per month, and you can deploy it by clicking on this button below:
+
+[![Run on Repl.it][replit-shield]][replit-url]
+
+This will deploy an instance of the BetterCrewLink-server. You can get the URL of your server by using the app name that you gave when you launched the app on Repl.it and appending `[your-username.repl.co]`. You can also find the URL of your server by going to "Web View". Using this URL, follow step 4 of the [installation instructions](https://github.com/OhMyGuus/BetterCrewLink-server#manual-installation) to connect your client to your server instance.
+
 
 ## Docker Quickstart
 

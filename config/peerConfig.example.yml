@@ -10,7 +10,7 @@
 
 # Force CrewLink to only work through TURN servers. This is great if you want to protect the IP addresses of players
 # as no direct connection will be made. At least one TURN server is required if set to true.
-forceRelayOnly: true
+forceRelayOnly: false
 
 # Settings for the built-in TURN server.
 integratedRelay:

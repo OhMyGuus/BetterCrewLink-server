@@ -6,14 +6,14 @@
     <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">BetterCrewlink Server</h3>
+  <h3 align="center">BetterCrewLink Server</h3>
 
   <p align="center">
-    Voice Relay server for <a href="https://github.com/OhMyGuus/crewlink">BetterCrewlink</a>.
+    Voice Relay server for <a href="https://github.com/OhMyGuus/BetterCrewLink-server">BetterCrewLink</a>.
     <br />
-    <a href="https://github.com/OhMyGuus/crewlink-server/issues">Report Bug</a>
+    <a href="https://github.com/OhMyGuus/BetterCrewLink-server/issues">Report Bug</a>
     ·
-    <a href="https://github.com/OhMyGuus/crewlink-server/issues">Request Feature</a>
+    <a href="https://github.com/OhMyGuus/BetterCrewLink-server/issues">Request Feature</a>
   </p>
 </p>
 
@@ -24,6 +24,7 @@
 
 * [About the Project](#about-the-project)
 * [Docker Quickstart](#docker-quickstart)
+  * [Deploy to Heroku](#deploy-to-heroku)
   * [Building the Docker Image](#building-the-docker-image)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
@@ -44,7 +45,7 @@ This is the relay server for CrewLink, an Among Us proximity voice chat program.
 Optional environment variables:
 
  - `PORT`: Specifies the port that the server runs on. Defaults to `443` if `HTTPS` is enabled, and `9736` if not.
- - `HOSTNAME` **(REQUIRED)**: The hostname or IP of the server (a record without a proxy so if you have cloudflare make a extra dns record named for example direct.domain.com and disable the proxy for that record (this is for the turn server))
+ - `HOSTNAME`: The hostname or IP of the server (a record without a proxy so if you have cloudflare make a extra dns record named for example direct.domain.com and disable the proxy for that record (this is for the turn server)
  - `NAME`: Specifies the server name
  - `HTTPS`: Enables https. You must place `privkey.pem` and `fullchain.pem` in your CWD.
  - `SSLPATH`: Specifies an alternate path to SSL certificates.
@@ -101,8 +102,8 @@ npm install yarn -g
 
 1. Clone the repo
 ```sh
-git clone https://github.com/OhMyGuus/crewlink-server.git
-cd crewlink-server
+git clone https://github.com/OhMyGuus/BetterCrewLink-server.git
+cd BetterCrewLink-server
 ```
 2. Install NPM packages
 ```sh
@@ -125,7 +126,7 @@ to protect player IP addresses. To do so, head into the ``config`` folder and re
 
 Any contributions you make are greatly appreciated.
 
-1. Fork the Project
+1. [Fork the Project](https://github.com/OhMyGuus/BetterCrewLink-server/fork)
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)

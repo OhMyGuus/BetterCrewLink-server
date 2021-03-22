@@ -54,4 +54,4 @@ if (fs.existsSync(PEER_CONFIG_PATH)) {
 	}
 }
 
-export default peerConfig;
+export default peerConfig

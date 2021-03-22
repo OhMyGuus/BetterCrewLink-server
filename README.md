@@ -2,14 +2,14 @@
 
 <br />
 <p align="center">
-  <a href="https://github.com/OhMyGuus/crewlink-server">
+  <a href="https://github.com/MatadorProBr/BetterCrewLink-server">
     <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">BetterCrewLink Server</h3>
 
   <p align="center">
-    Voice Relay server for <a href="https://github.com/OhMyGuus/BetterCrewLink-server">BetterCrewLink</a>.
+    Voice Relay server for <a href="https://github.com/OhMyGuus/BetterCrewLink">BetterCrewLink</a>.
     <br />
     <a href="https://github.com/OhMyGuus/BetterCrewLink-server/issues">Report Bug</a>
     ·
@@ -23,10 +23,10 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
+* [Deploy to Heroku](#deploy-to-heroku)
 * [Docker Quickstart](#docker-quickstart)
-  * [Deploy to Heroku](#deploy-to-heroku)
   * [Building the Docker Image](#building-the-docker-image)
-* [Getting Started](#getting-started)
+* [Manual Installation](#manual-installation)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
   * [Customizing Peer to Peer Behavior](#customizing-peer-to-peer-behavior)
@@ -38,7 +38,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is the relay server for CrewLink, an Among Us proximity voice chat program. I am currently hosting a server at `https://crewl.ink/`, but if you want a more reliable option I would suggest to deploy this repository yourself.
+This is the relay server for CrewLink, an Among Us proximity voice chat program. I am currently hosting a server at <a href="https://bettercrewl.ink">`https://bettercrewl.ink`</a>, but if you want to make your own server, feel free to open source the server.
 
 ## Environment Variables
 

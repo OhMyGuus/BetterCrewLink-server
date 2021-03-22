@@ -141,5 +141,5 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 [license-url]: https://github.com/OhMyGuus/crewlink-server/blob/master/LICENSE
 [docker-shield]: https://img.shields.io/docker/pulls/ohmyguus/bettercrewlink-server
 [docker-url]: https://hub.docker.com/repository/docker/ohmyguus/bettercrewlink-server
-[replit-shield]: https://repl.it/badge/github/OhMyGuus/BetterCrewLink-server
-[replit-url]: https://repl.it/github/OhMyGuus/BetterCrewLink-server
+[replit-shield]: https://repl.it/badge/github/MatadorProBr/BetterCrewLink-server
+[replit-url]: https://repl.it/github/MatadorProBr/BetterCrewLink-server

@@ -24,7 +24,7 @@
 
 * [About the Project](#about-the-project)
 * [Deploy to Heroku](#deploy-to-heroku)
-* [Deploy to Repl.it](#deploy-to-repl.it)
+* [Deploy to Repl.it](#deploy-to-replit)
 * [Docker Quickstart](#docker-quickstart)
   * [Building the Docker Image](#building-the-docker-image)
 * [Manual Installation](#manual-installation)

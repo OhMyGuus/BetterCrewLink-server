@@ -1,4 +1,4 @@
-[![GPL-3.0 License][license-shield]][license-url] [![Docker Pulls][docker-shield]][docker-url] [![Run on Repl.it][replit-shield]][replit-url] 
+[![GPL-3.0 License][license-shield]][license-url] [![Docker Pulls][docker-shield]][docker-url] [![Run on Repl.it][replit-shield]][replit-url] [![Discord](https://img.shields.io/discord/791516611143270410.svg?color=%237289da&label=discord)](https://discord.gg/qDqTzvj4SH)
 
 <br />
 <p align="center">

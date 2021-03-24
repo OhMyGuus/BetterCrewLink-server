@@ -16,6 +16,9 @@
     <a href="https://github.com/OhMyGuus/BetterCrewLink-server/issues">Request Feature</a>
   </p>
 </p>
+<hr />
+
+<p>
 
 <b>Notes:</b><br />
 

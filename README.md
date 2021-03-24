@@ -148,7 +148,7 @@ Any contributions you make are greatly appreciated.
 Distributed under the GNU General Public License v3.0. See <a href="https://github.com/OhMyGuus/BetterCrewLink-server/blob/master/LICENSE">`LICENSE`</a> for more information.
 
 
-[license-shield]: https://img.shields.io/github/license/OhMyGuus/crewlink.svg?style=flat-square
+[license-shield]: https://img.shields.io/github/license/OhMyGuus/BetterCrewLink-server.svg?style=flat-square
 [license-url]: https://github.com/OhMyGuus/BetterCrewLink-server/blob/master/LICENSE
 [docker-shield]: https://img.shields.io/docker/pulls/ohmyguus/bettercrewlink-server
 [docker-url]: https://hub.docker.com/repository/docker/ohmyguus/bettercrewlink-server

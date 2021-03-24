@@ -38,8 +38,6 @@
 * [Contributing](#contributing)
 * [License](#license)
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -70,7 +68,6 @@ Another way to host your server besides using Heroku it's the Repl.it that provi
 [![Run on Repl.it][replit-shield]][replit-url]
 
 This will deploy an instance of the BetterCrewLink-server. You can get the URL of your server by using the app name that you gave when you launched the app on Repl.it and appending `[your-username.repl.co]`. You can also find the URL of your server by going to "Web View". Using this URL, follow step 4 of the [installation instructions](https://github.com/OhMyGuus/BetterCrewLink-server#manual-installation) to connect your client to your server instance.
-
 
 ## Docker Quickstart
 
@@ -146,11 +143,9 @@ Any contributions you make are greatly appreciated.
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
 ## License
 
 Distributed under the GNU General Public License v3.0. See <a href="https://github.com/OhMyGuus/BetterCrewLink-server/blob/master/LICENSE">`LICENSE`</a> for more information.
-
 
 [license-shield]: https://img.shields.io/github/license/OhMyGuus/BetterCrewLink-server.svg?style=flat-square
 [license-url]: https://github.com/OhMyGuus/BetterCrewLink-server/blob/master/LICENSE

@@ -1,4 +1,4 @@
-[![GPL-3.0 License][license-shield]][license-url] [![Docker Pulls][docker-shield]][docker-url] [![Run on Repl.it][replit-shield]][replit-url] [![Discord](https://img.shields.io/discord/791516611143270410.svg?color=%237289da&label=discord)](https://discord.gg/qDqTzvj4SH)
+[![GPL-3.0 License][license-shield]][license-url] [![Docker Pulls][docker-shield]][docker-url] [![Run on Repl.it][replit-shield]][replit-url] [![Discord Server][discord-shield]][discord-url]
 
 <br />
 <p align="center">
@@ -157,3 +157,5 @@ Distributed under the GNU General Public License v3.0. See <a href="https://gith
 [docker-url]: https://hub.docker.com/repository/docker/ohmyguus/bettercrewlink-server
 [replit-shield]: https://repl.it/badge/github/OhMyGuus/BetterCrewLink-server
 [replit-url]: https://repl.it/github/OhMyGuus/BetterCrewLink-server
+[discord-shield]: https://img.shields.io/discord/791516611143270410?color=cornflowerblue&label=Discord&logo=Discord&logoColor=white
+[discord-url]: https://discord.gg/qDqTzvj4SH

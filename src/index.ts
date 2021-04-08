@@ -3,7 +3,7 @@ import { Server } from 'http';
 import { Server as HttpsServer } from 'https';
 import { readFileSync } from 'fs';
 import { join } from 'path';
-import socketIO from 'socket.io';
+import { Server as IOServer, Socket } from "socket.io";
 import Tracer from 'tracer';
 import morgan from 'morgan';
 import crypto from 'crypto';
@@ -62,7 +62,7 @@ if (peerConfig.integratedRelay.enabled) {
 	turnServer.start();
 }
 
-const io = socketIO(server);
+const io = new IOServer(server);
 
 const clients = new Map<string, Client>();
 
@@ -109,7 +109,7 @@ app.get('/health', (req, res) => {
 
 
 
-io.on('connection', (socket: socketIO.Socket) => {
+io.on('connection', (socket: Socket) => {
 	connectionCount++;
 	logger.info('Total connected: %d', connectionCount);
 	let code: string | null = null;
@@ -140,8 +140,8 @@ io.on('connection', (socket: socketIO.Socket) => {
 		}
 
 		let otherClients: any = {};
-		if (io.sockets.adapter.rooms[c]) {
-			let socketsInLobby = Object.keys(io.sockets.adapter.rooms[c].sockets);
+		if (io.sockets.adapter.rooms.get(c)) {
+			let socketsInLobby = Object.keys(io.sockets.adapter.rooms.get(c));
 			for (let s of socketsInLobby) {
 				// if (clients.has(s) && clients.get(s).clientId === clientId) {
 				// 	socket.disconnect();

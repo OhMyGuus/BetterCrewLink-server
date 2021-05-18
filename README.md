@@ -100,7 +100,7 @@ cd BetterCrewLink-server
 
 2. Run the Docker build command:
 ```sh
-docker build -t ohmyguus/bettercrewlink-server:build
+docker build -t ohmyguus/bettercrewlink-server:build .
 ```
 
 ## Manual Installation
